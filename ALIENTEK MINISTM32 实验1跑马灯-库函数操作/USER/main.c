@@ -12,9 +12,9 @@
 	while(1)
 	{
 		GPIO_ResetBits(GPIOB,GPIO_Pin_0);  //LEDµÆÁÁ
-		delay_ms(300);
+		delay_ms(1000);
 		GPIO_SetBits(GPIOB,GPIO_Pin_0);    //LEDµÆÃð
-		delay_ms(300);
+		delay_ms(1000);
 	}
  }
 
